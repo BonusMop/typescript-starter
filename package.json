@@ -2,9 +2,10 @@
   "name": "typescript-starter",
   "version": "1.0.0",
   "description": "A typescript project template.",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/BonusMop/typescript-starter/issues"
   },
-  "homepage": "https://github.com/BonusMop/typescript-starter#readme"
+  "homepage": "https://github.com/BonusMop/typescript-starter#readme",
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
 }
